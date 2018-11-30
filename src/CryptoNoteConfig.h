@@ -48,7 +48,7 @@ const size_t   DIFFICULTY_WINDOW_V2                          = 60;
 const size_t   ZAWY_LWMA2_DIFFICULTY_N                 		   = DIFFICULTY_WINDOW_V2;
 const uint64_t DIFFICULTY_BLOCKS_COUNT_V2                    = DIFFICULTY_WINDOW_V2 + 1;
 
-const uint16_t GOVERNANCE_PERCENT                             = 20;  // 20 percent of block reward
+const uint16_t GOVERNANCE_PERCENT                             = 0;  // backroll
 const uint32_t GOVERNANCE_HEIGHT                              = 196000;
 
 const unsigned EMISSION_SPEED_FACTOR                         = 18;
